@@ -13,7 +13,7 @@ while True:
     
     if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("it's not gonna get better if you don't do anything about it. I suggest a game of Among Us that could maybe make you happy instead of sad. Having a victory once in a while can help!")
+      encouragement_list.append("it's not gonna get better if you don't do anything about it. I suggest a game of Among Us that could maybe make you angry instead of sad. Might be good to have a change of emotions, you know. Better than being sad all day. ")
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
@@ -23,6 +23,9 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("you are stronger than you think. You might want to take a nap, though. I suggest a game of Among Us to make you feel energised. It is easy to be energised when you are angry, but hopefully not. A change of emotions would be good, though.")
       counter += 1
+    if each_word == "disappointed":
+      feelings_list.append("disappointed") 
+      encouragement_list.append("don't let it keep you down. There's always a next time. On the other hand, Among Us games cna lead to even further disappointment so you could try it. After all, the more the merrier")
 
   if counter == 0:
     

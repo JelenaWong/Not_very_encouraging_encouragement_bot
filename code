@@ -1,4 +1,4 @@
-print("Title of program: Encouragement bot")
+print("Title of program: Motivation bot")
 print()
 while True:
   description = input("Could you describe how you feel in a sentence?")
@@ -13,20 +13,20 @@ while True:
     
     if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("tomorrow will be a better day")
+      encouragement_list.append("it's not gonna get better if you dont do anything about it. I suggest a game of Among Us that could maybe make you angry instead of sad. Might be good to have a change of emotions, you know. Better than being sad all day. You might also find a medb-bae (only if you are 18)")
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
-      encouragement_list.append("to keep smiling")
+      encouragement_list.append("doing great so far, then. Keep it up, but don't get too happy over it becuase there will be problems later on. I suggest a game of Among Us as a reward, go make a new friend and hopefully not an enemy. You probably wouldnt find them anywhere else though, so don't take them seriously if you dont like them.")
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
-      encouragement_list.append("you are stronger than you think")
+      encouragement_list.append("you are stronger than you think. You might want to take a nap, though. I suggest a game of Among Us to make you feel energised. It is easy to be energised when you are angry, but hopefully not. A change of emotions would be good, though.")
       counter += 1
 
   if counter == 0:
     
-      output = "Sorry I don't really understand. Please use different words?"
+      output = "Sorry I don't really understand. Are you typing in English? I only accept answers in English. "
 
   elif counter == 1:
     

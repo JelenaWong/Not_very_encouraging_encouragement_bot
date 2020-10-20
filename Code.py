@@ -1,7 +1,7 @@
 print("Title of program: Not_exactly_encouraging_encouragement_bot")
 print()
 while True:
-  description = input("Could you describe how you feel in a sentence?")
+  description = input("Could you describe how you feel in a word?")
 
   list_of_words = description.split()
 
@@ -13,11 +13,11 @@ while True:
     
     if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("it's not gonna get better if you dont do anything about it. I suggest a game of Among Us that could maybe make you angry instead of sad. Might be good to have a change of emotions, you know. Better than being sad all day. ")
+      encouragement_list.append("it's not gonna get better if you don't do anything about it. I suggest a game of Among Us that could maybe make you angry instead of sad. Might be good to have a change of emotions, you know. Better than being sad all day. ")
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
-      encouragement_list.append("doing great so far, then. Keep it up, but don't get too happy over it becuase there will be problems later on. I suggest a game of Among Us as a reward, go make a new friend and hopefully not an enemy. You probably wouldnt find them anywhere else though, so don't take them seriously if you dont like them.")
+      encouragement_list.append("Doing great so far, then. Keep it up, but don't get too happy over it becuase there will be problems later on. I suggest a game of Among Us as a reward, go make a new friend and hopefully not an enemy. You probably wouldnt find them anywhere else though, so don't take them seriously if you dont like them.")
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")

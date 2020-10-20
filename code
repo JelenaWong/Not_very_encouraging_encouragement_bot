@@ -13,7 +13,7 @@ while True:
     
     if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("it's not gonna get better if you dont do anything about it. I suggest a game of Among Us that could maybe make you angry instead of sad. Might be good to have a change of emotions, you know. Better than being sad all day. You might also find a medb-bae (only if you are 18)")
+      encouragement_list.append("it's not gonna get better if you dont do anything about it. I suggest a game of Among Us that could maybe make you angry instead of sad. Might be good to have a change of emotions, you know. Better than being sad all day. ")
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")

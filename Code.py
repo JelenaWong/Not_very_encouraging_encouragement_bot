@@ -23,6 +23,10 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("you are stronger than you think. You might want to take a nap, though. I suggest a game of Among Us to make you feel energised. It is easy to be energised when you are angry, but hopefully not. A change of emotions would be good, though.")
       counter += 1
+     if each_word=="fear":
+      feelings_list.append("fear")
+      encouragement_list.append("don't be afraid, just keep on going")
+      counter += 1
 
   if counter == 0:
     

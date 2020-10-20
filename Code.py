@@ -25,7 +25,7 @@ while True:
       counter += 1
      if each_word=="fear":
       feelings_list.append("fear")
-      encouragement_list.append("don't be afraid, just keep on going, remember this quote: don't worry be happy. :)")
+
       counter += 1
 
   if counter == 0:

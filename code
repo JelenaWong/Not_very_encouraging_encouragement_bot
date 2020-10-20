@@ -1,4 +1,4 @@
-print("Title of program: Motivation bot")
+print("Title of program: Not_exactly_encouraging_encouragement_bot")
 print()
 while True:
   description = input("Could you describe how you feel in a sentence?")
